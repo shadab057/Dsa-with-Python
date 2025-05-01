@@ -8,3 +8,12 @@ def print_function(n):
 
 
 # Time Complexity : O(n log n)
+
+
+def printm(n):
+    i = 1
+    while(i < n):
+        j = 0
+        while (j < n):
+        j = j + i
+        i = i + 1
