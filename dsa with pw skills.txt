@@ -1,0 +1,147 @@
+ dsa with pw skills
+
+ ———————— ————————  L - 2 ———————— ————————  
+What is Python ?
+- Python is high level, interpreted,  general purpose Programming language.
+- python has a  simple syntax and readable .
+➡️ Python Important 
+- Ease of Learning
+- Versatility 
+- Large Community & Libraries
+- Cross-Platform
+- High Demand in Industry
+- open source
+
+Types of Programming language
+- Compiled
+   code → compilation → Byte code → Execution happens
+
+- Interpreted scripted 
+    code → Execution ... line by line interpretation and then execution  → Check + execution
+➡️ python belong to Interpreted scripted language
+- Interpreted Programming language comparatively slower runtime compared to compiled programming language
+ 
+➡️Integrated Development Environment 
+- syntax suggestion
+- warning 
+- Better project structure and access
+
+
+ ————————————————— L - 3  —————————————————
+
+ ————————————————— L - 4  —————————————————
+Data Structure : 
+- Structuring data 
+• stoarge effient
+• faster computation
+Structure → space - effiecient
+                   → faster   -  Compilations
+
+DS  
+A linear data structure organizes data elements in a sequential order, where each element is connected to the next (and sometimes previous) element. Traversal (accessing data) happens in a fixed sequence
+
+• Linear  - linear data structures are the those where data elements are sequential (ek ke baad ek) order arrange it. 
+➡️ Yani, har element ka ek previous aur ek next element hota hai (except first aur last ke liye). Inme traversal (data ko access karna) ek fixed sequence mein hota hai.
+👉Characteristics:
+• Data ek line mein ya sequence mein hota hai.
+• Memory mein continuous ya linked form mein store ho sakta hai.
+• Traversal simple aur predictable hota hai.
+
+➡️Why Important:
+
+- Linear structures are simple, making operations like searching, insertion, and deletion efficient for sequential data.
+- Used in real-world applications like task scheduling (Queue), undo functionality (Stack), or data storage (Array).
+- Memory usage is predictable, especially for arrays.
+ ex- Array, Linkedlist, Stack, Queue.
+• Non- Linear - A non-linear data structure organizes data in a non-sequential way, where elements can be connected to multiple other elements. Traversal can happen through multiple paths.
+👉 Characteristics:
+
+• Data is arranged hierarchically or in a complex, interconnected way.
+• Traversal is flexible, with multiple possible paths.
+• Memory usage is more complex compared to linear structures.
+ Ex - Tree, Graph, Heap
+
+
+➡️Why Important:
+
+- Non-linear structures are ideal for modeling complex relationships, like social networks (Graph) or organizational hierarchies (Tree).
+- They enable efficient algorithms for searching and sorting (e.g., Binary Search Tree, Heap).
+- Scalable for large, interconnected datasets.
+
+👉 An algorithm is a step-by-step procedure or set of instructions designed to solve a specific problem or perform a task. It’s like a recipe for cooking — you follow a sequence of steps to achieve a goal. In computer science, algorithms are used to process data, perform computations, or automate tasks efficiently.
+
+👉Key Characteristics of an Algorithm
+Finiteness: An algorithm must terminate after a finite number of steps.
+Definiteness: Each step must be clear and unambiguous.
+Input: It takes zero or more inputs to work with.
+Output: It produces at least one output or result.
+Effectiveness: Each step must be basic enough to be executed in a finite amount of time.
+
+➡️Why Are Algorithms Important?
+Efficiency: Algorithms help solve problems quickly and with minimal use of resources (time and memory).
+Scalability: Good algorithms handle large datasets effectively.
+Automation: They enable computers to perform tasks like searching, sorting, or decision-making.
+Foundation of Programming: Algorithms are the core logic behind software and applications.
+
+→What is Time Complexity?
+Time complexity is a way to measure how long an algorithm takes to finish based on the size of its input (called n).
+- Independent of programming language
+- Independent of OS/ Processor
+➡️How the no of operations are propostional to the input size.
+- Tc : 0(n)
+- It's wirtten in Big-O notation 
+
+ex- 
+def print(n):
+    i = 2
+    while (i < n )
+        i = i * 2 
+   print('hello')
+
+Time Complexity : O(log n)
+
+def print(n):
+    for i in range(n):
+        for j in range(n):
+            break
+            print("Hello")
+Time complexity :  n*1 = O(n)
+
+
+ex- 
+def print (x) :
+     i = 2
+    while i < n:
+        i = i * i
+        print('Hello')
+O(log log n)
+
+
+————————————— L -5 —————————————
+def hello(n):
+    i = 0
+    while (i < 2):
+        i = i + 1
+        print("Hello")
+
+hello(5) 
+
+#  Time Complexity : O(1) ➔ Constant Time Complexity
+
+
+def print_function(n):
+    i = 1
+    while (i < n):
+        j = 0
+        while (j < n):
+            j = j + i
+        i = i + 1
+
+
+# Time Complexity : O(n log n)
+
+👉 Space complexity 
+  Extra space that take to solve a problem  are proposational to the input size
+
+
+
